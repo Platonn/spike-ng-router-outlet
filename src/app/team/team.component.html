@@ -1,0 +1,10 @@
+Team {{ (route.params | async).teamId }}
+<div>
+  PRIMARY OUTLET:
+  <router-outlet></router-outlet>
+</div>
+
+<div>
+  SUPPORT OUTLET:
+<router-outlet name="support"></router-outlet>
+</div>
